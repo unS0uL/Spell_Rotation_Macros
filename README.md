@@ -48,5 +48,8 @@ cmd /c mklink "$characterDir" (convert-path ./Spell_Rotation_Macros/macros-cache
 
 # How to use
 In-game open the macros interface, and switch the tab to "<CHAR NAME> Specific Macros".
+
 Drag and drop to Active panel, macros **_1_Targeting**
+
 You can spam this button all the time, spell can be cast when mob\boss in combat.
+
