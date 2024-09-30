@@ -27,7 +27,10 @@ Macros group functions;
 > [!IMPORTANT]
 > **Close the World of Warcraft!** before any file changes
 
+Download and install addons: Dotimer and Roid Macros.
+
 Download the file **macros-cache.txt**, and past it to your character folder:
+
 Rename your file **macros-cache.txt** to macros-cache.txt.bak or delete it. This file contains your macros for the character.
 ```
 D:\Games\WoW\WTF\Account\<ACCOUNT NAME>\Nordanaar\<CHAR NAME>
