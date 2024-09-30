@@ -24,7 +24,7 @@ Macros group functions;
 **Close the World of Warcraft!** before any file changes
 
 Download the file **macros-cache.txt**, and past it to your character folder:
-Rename your file **macros-cache.txt** to macros-cache.txt**.bak** or delete it. This file contains your macros for the character.
+Rename your file **macros-cache.txt** to macros-cache.txt.bak or delete it. This file contains your macros for the character.
 ```
 D:\Games\WoW\WTF\Account\<ACCOUNT NAME>\Nordanaar\<CHAR NAME>
 ```
