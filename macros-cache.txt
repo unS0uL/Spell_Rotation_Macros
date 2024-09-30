@@ -1,0 +1,28 @@
+MACRO 16777218 "_1_Targeting" Spell_Shaman_Dropall_02
+/run if (UnitName('target')==nil) then TargetNearestEnemy()end;
+/run if UnitAffectingCombat("target") then inCombat=1 else inCombat=0 end;
+/cast {_2_Targeting}
+END
+MACRO 16777220 "_2_Targeting" Spell_Shaman_Dropall_03
+/run if isClassUnit=="worldboss" then helthLimit=40000 else helthLimit=8800 end;
+/run isHealth=UnitHealth("target") isClassUnit=UnitClassification("target")
+/cast {_attk_LifeTap}
+END
+MACRO 16777222 "_attk_CastSiq" Spell_Shadow_CorpseExplode
+/run if inCombat==1 then if isHealth>=helthLimit then if DoT_IsPSpell("Corruption") then isCor=1 else CastSpellByName("Corruption()") isCor=0  end;end;end
+/cast {_attk_CoS}
+/run if inCombat==1 then CastSpellByName("Shadow Bolt()") end
+END
+MACRO 16777226 "_attk_CoE" Spell_Shadow_ChillTouch
+/run if inCombat==1 then if isHealth>=helthLimit then if DoT_DetermineSpell("Curse of Elements","Curse of Agony") then end;end;end;
+END
+MACRO 16777225 "_attk_CoR" Spell_Shadow_UnholyStrength
+/run if inCombat==1 then if isHealth>=helthLimit then if DoT_DetermineSpell("Curse of Recklessness","Curse of Agony") then end;end;end;
+END
+MACRO 16777221 "_attk_CoS" Spell_Shadow_CurseOfAchimonde
+/run if inCombat==1 then if isHealth>=helthLimit then if DoT_DetermineSpell("Curse of Shadow","Curse of Agony") then end;end;end;
+END
+MACRO 16777224 "_attk_LifeTap" Spell_Holy_LesserHeal02
+/run isMana=UnitMana("player") isPHealth=UnitHealth("player") if (isMana<=750 and isPHealth > 3200) then CastSpellByName("Life Tap()") end
+/cast {_attk_CastSiq}
+END
