@@ -28,9 +28,9 @@ Rename your file **macros-cache.txt** to macros-cache.txt**.bak** or delete it. 
 ```
 D:\Games\WoW\WTF\Account\<ACCOUNT NAME>\Nordanaar\<CHAR NAME>
 ```
-Where **<ACCOUNT NAME>** is your account name on the server.
+Where **\<ACCOUNT NAME\>** is your account name on the server.
 
-Where **<CHAR NAME>** is your in-game character name (Your warlock name)
+Where **\<CHAR NAME\>** is your in-game character name (Your warlock name)
 
 With repository cloning:
 # Using PowerShell
