@@ -21,7 +21,8 @@ Macros group functions;
 
 # Instaliation
 
-Close the World of Warcraft!
+**Close the World of Warcraft!** before any file changes
+
 Download the file **macros-cache.txt**, and past it to your character folder:
 ```
 D:\Games\WoW\WTF\Account\<ACCOUNT NAME>\Nordanaar\<CHAR NAME>
