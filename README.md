@@ -2,6 +2,9 @@
 
 It's a macros group for Spell Rotation for one button, you can use it in raid\groupe, these macros have protection from the wrong target selection.
 
+> [!IMPORTANT]
+> Macros work just with in-combat targets.
+
 # Description
 
 Macros group functions;
@@ -21,7 +24,8 @@ Macros group functions;
 
 # Instaliation
 
-**Close the World of Warcraft!** before any file changes
+> [!IMPORTANT]
+> **Close the World of Warcraft!** before any file changes
 
 Download the file **macros-cache.txt**, and past it to your character folder:
 Rename your file **macros-cache.txt** to macros-cache.txt.bak or delete it. This file contains your macros for the character.
@@ -41,3 +45,8 @@ Rename-Item $characterDir\macros-cache.txt -NewName macros-cache.txt.bak
 git clone https://github.com/unS0uL/Spell_Rotation_Macros.git
 cmd /c mklink "$characterDir" (convert-path ./Spell_Rotation_Macros/macros-cache.txt)
 ```
+
+# How to use
+In-game open the macros interface, and switch the tab to "<CHAR NAME> Specific Macros".
+Drag and drop to Active panel, macros **_1_Targeting**
+You can spam this button all the time, spell can be cast when mob\boss in combat.
