@@ -13,13 +13,13 @@ Macros group functions;
 6) Cast some Curse, if curse are not on target. If your chosen corruption had on target, casted Curse of Agony
 7) If the player has lower mana than 750, and HP is more than 3200, cast Life Tap.
 
-#Requirements
+# Requirements
 
 [DoTimer](https://github.com/kc8pnd/DoTimer/) addon needs to check your corruption on target.
 
 [Roid Macros](https://github.com/MarcelineVQ/Roid-Macros/) addon for making group macros, by calling another macro from current, with fixing the length of the macro is more than 250 symbols.
 
-#Instaliation
+# Instaliation
 
 Close the World of Warcraft!
 Download the file **macros-cache.txt**, and past it to your character folder:
